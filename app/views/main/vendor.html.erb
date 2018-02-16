@@ -1,0 +1,8 @@
+<% if @vendor == nil %>
+    <p>Incorrect PIN</p>
+    <script>setVendorPin("")</script>
+<% else %>
+    <script>setVendorPin('<%= params[:pin] %>');</script>
+    <p id='vendor-name'><%= @vendor.name %></p>
+    <%= render 'main/make_sale' %>
+<% end %>

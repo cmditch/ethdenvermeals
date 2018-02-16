@@ -1,0 +1,116 @@
+// Place all the styles related to the Main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+p {  font-size: 4em; text-align: center; }
+
+#see-user-credits {
+    font-family: Courier New;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+#vendor-name {
+    font-family: Courier New;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+}
+
+#vendor-login {
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+
+    input[type=submit] {
+        -webkit-border-radius: 20;
+        -moz-border-radius: 20;
+        border-radius: 28px;
+        -webkit-box-shadow: 0px 1px 3px #666666;
+        -moz-box-shadow: 0px 1px 3px #666666;
+        box-shadow: 0px 1px 3px #666666;
+        font-family: Courier New;
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 3em;
+        background: #3498db;
+        padding: 10px 20px 10px 20px;
+        border: solid #3498db 2px;
+        text-decoration: none; }
+
+    input[type=number] {
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        font-family: Courier New;
+        font-weight: bold;
+    }
+    
+    label { 
+        font-size: 3em; 
+        font-family: Courier New;
+        font-weight: bold;
+        margin: 0.9em;
+    }
+
+    input { width: 20%; height: 3em; font-size: 3em; margin: 1em; }
+    form { width: 100%; }
+}
+
+#make-sale {
+    width: 100%;
+
+    input[type=submit] {
+        position: absolute;
+        bottom: 1em;
+        -webkit-border-radius: 20;
+        -moz-border-radius: 20;
+        border-radius: 28px;
+        -webkit-box-shadow: 0px 1px 3px #666666;
+        -moz-box-shadow: 0px 1px 3px #666666;
+        box-shadow: 0px 1px 3px #666666;
+        font-family: Courier New;
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 4em;
+        background: #3498db;
+        padding: 10px 20px 10px 20px;
+        border: solid #1f628d 2px;
+        text-decoration: none;
+        padding: 1em;
+        margin-left: 12%;
+        margin-bottom: 12%;
+    }
+}
+
+#refund-sale {
+    width: 100%;
+
+    p {
+        font-family: Courier New;
+        font-weight: bold;
+        font-size: 8em;
+    }
+
+    input[type=submit] {
+        position: absolute;
+        bottom: 1em;
+        -webkit-border-radius: 20;
+        -moz-border-radius: 20;
+        border-radius: 28px;
+        -webkit-box-shadow: 0px 1px 3px #666666;
+        -moz-box-shadow: 0px 1px 3px #666666;
+        box-shadow: 0px 1px 3px #666666;
+        font-family: Courier New;
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 2em;
+        background: red;
+        padding: 10px 20px 10px 20px;
+        border: solid #000 2px;
+        text-decoration: none;
+        padding: 1em;
+        margin-left: 35%;
+        margin-bottom: 40%;
+    }
+}

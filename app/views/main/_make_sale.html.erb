@@ -1,0 +1,6 @@
+<div id='make-sale'>
+    <%= render 'main/see_user_credits' %>
+    <% if @user != nil && @user.credits > 0 %>
+        <%= button_to "CHARGE ONE MEAL!" %>
+    <% end %>
+</div>

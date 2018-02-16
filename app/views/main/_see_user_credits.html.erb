@@ -1,0 +1,11 @@
+<div id='see-user-credits'>
+    <% if @user == nil %>
+        <div><p>No User Found</p></div>
+    <% elsif @user.credits == 0 %>
+        <div><p>0 Meals Left</p></div>
+        <style> body { background-color: #e74c3c }</style>
+    <% else %>
+    <div><p><%= @user.credits %> Meals Left</p></div>
+        <style> body{ background-color: #27ae60 }</style>
+    <% end  %>
+</div>

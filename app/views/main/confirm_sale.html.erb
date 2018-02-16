@@ -1,0 +1,5 @@
+<div id="refund-sale">
+    <style> body{ background-color: #27ae60 }</style>
+    <p>Sale Confirmed!</p>
+    <%= button_to "REFUND TX", "/confirm_sale/" + @sale.id.to_s , method: :delete, data: { confirm: "Are you sure?" } %>
+</div>

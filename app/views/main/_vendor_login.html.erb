@@ -1,0 +1,15 @@
+<div id='vendor-login'>
+        <br>
+        <%= form_tag("/vendor-login", method: "get") do %>
+        <%= label_tag(:pin, "Vendor ID") %>
+        <%= number_field_tag :pin, nil, within: 1000...9999 %>
+        <%= hidden_field_tag(:tokenid, params[:tokenid]) %>
+        <%= submit_tag "Login" %>
+        <% end %>
+</div>
+
+<script>
+  if (getCookie("vendorPin") != "") {
+      window.location.assign(window.location.toString() + "/" + getCookie("vendorPin"))
+  }
+</script>
